@@ -1,4 +1,7 @@
-package ru.geekbrains;
+package ru.geekbrains.Course;
+
+import ru.geekbrains.Competitors.Competitor;
+import ru.geekbrains.Competitors.Team;
 
 public class Course
 {

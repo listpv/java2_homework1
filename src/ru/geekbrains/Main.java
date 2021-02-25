@@ -15,6 +15,15 @@ public static void main(String[] args) {
         team.showResults(); // Показываем результаты
         }*/
 
+import ru.geekbrains.Competitors.Cat;
+import ru.geekbrains.Competitors.Dog;
+import ru.geekbrains.Competitors.Human;
+import ru.geekbrains.Competitors.Team;
+import ru.geekbrains.Course.Course;
+import ru.geekbrains.Course.Cross;
+import ru.geekbrains.Course.Wall;
+import ru.geekbrains.Course.Water;
+
 public class Main
 {
 
@@ -35,6 +44,8 @@ public class Main
         {
             c.info();
         }*/
+
+        System.out.println("Test after commit");
 
         Team team = new Team("Юг", new Human("Боб"), new Cat("Барсик"), new Dog("Бобик"), new Human("Иван"));
         Course course = new Course(new Cross(80), new Water(5), new Wall(1), new Cross(120));

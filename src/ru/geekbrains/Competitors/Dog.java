@@ -1,4 +1,4 @@
-package ru.geekbrains;
+package ru.geekbrains.Competitors;
 
 public class Dog extends Animal
 {

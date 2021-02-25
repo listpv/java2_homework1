@@ -1,4 +1,6 @@
-package ru.geekbrains;
+package ru.geekbrains.Course;
+
+import ru.geekbrains.Competitors.Competitor;
 
 public abstract class Obstacle
 {
